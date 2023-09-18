@@ -65,6 +65,7 @@ app.get('/', async (req, res) => {
       await page.click('#yDmH0d > c-wiz > div > div > div:nth-child(15) > div.crqnQb > div > div.gAGjv > div.vgJExf > div > div > div.ZUpb4c > div.oORaUb.NONs6c > div > div.EhAUAc > div.GOH7Zb > div > div.U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.M9Bg4d.HNeRed');
       await btnJoin.click();
       await page.waitForTimeout(3000);
+      
       // Bergabung dengan pertemuan
       
       // await waitForParticipants(3);
